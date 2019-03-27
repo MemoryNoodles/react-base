@@ -1,0 +1,13 @@
+/**
+ * @module  action
+ * action的常量
+ * */
+export const LOGIN_INFORMATION = 'LOGIN_INFORMATION';
+export const LOGIN_ALLOCATION = "LOGIN_ALLOCATION";
+export const SPIN_LOADING_TRUE = 'SPIN_LOADING_TRUE';
+export const SPIN_LOADING_FALSE = 'SPIN_LOADING_FALSE';
+export const UPDATE_ADMIN_TRUE = 'UPDATE_ADMIN_TRUE';
+export const UPDATE_ADMIN_FALSE = 'UPDATE_ADMIN_FALSE';
+export const SET_NO_READ_NEWS_LIST = 'SET_NO_READ_NEWS_LIST';
+export const BREADCRUMB_TOP = 'BREADCRUMB_TOP';
+export const CUR_SCREEN = 'CUR_SCREEN   ';

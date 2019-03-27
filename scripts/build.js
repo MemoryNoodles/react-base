@@ -16,7 +16,7 @@ require('../config/env');
 
 
 const path = require('path');
-const chalk = require('react-dev-utils/chalk');
+const chalk = require('chalk');
 const fs = require('fs-extra');
 const webpack = require('webpack');
 const bfj = require('bfj');
@@ -184,6 +184,9 @@ function build(previousFileSizes) {
   });
 }
 
+/**
+ *
+ */
 function copyPublicFolder() {
   fs.copySync(paths.appPublic, paths.appBuild, {
     dereference: true,
